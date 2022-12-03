@@ -1,4 +1,4 @@
-f = open("day1input.txt")
+f = open("./day1/day1input.txt")
 a=[0]
 for l in f.readlines():
     l = l.removesuffix('\n')
