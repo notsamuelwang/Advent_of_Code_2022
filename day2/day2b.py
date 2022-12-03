@@ -1,4 +1,4 @@
-f=open("day2input.txt")
+f=open("./day2/day2input.txt")
 ans = 0
 for l in f.readlines():
     a = ord(l[0])-ord('A')
